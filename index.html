@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>RAM Ferretería</title>
+  </head>
+  <body>
+
+    <!------------NAVBAR--------------------------------------->
+    <nav class="navbar navbar-light  fixed-top">
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="#"><img src="images/logo.jpg" class = "logo-brand" alt="logo"></a>
+            <p class="text-center fs-2 text-white font-weight-bold">RAM FERRETERÍA</p>
+
+            
+            
+
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RAM Ferretería</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="herramienta.html">Herramienta</a></li>
+                    <li><a class="dropdown-item" href="#">Acero</a></li>
+                    <li><a class="dropdown-item" href="baños.html">Baños</a></li>
+                    <li><a class="dropdown-item" href="#">Plomería</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+    
+
+      
+
+
+      <!-------------------CARROUSEL PRINCIPAL--------------------------------------->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/herrero.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pinzas.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/clavos.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+     
+     
+      <!-------------------CARDS--------------------------------------->
+      <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Nuestros productos</p>
+                <h2>LOS MAS VENDIDOS</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/bomba_igoto.jpg" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                    Bomba igoto 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Bombas para agua</h3>
+                            <a class="btn" href="images/bomba_igoto.jpg" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/Cemento_mty.jpg" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                  Cemento monterrey 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Cementos</h3>
+                            <a class="btn" href="images/Cemento_mty.jpg" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/herramientas.jpg" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                     Cajas de herramientas de las mejores marcas 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Herramientas</h3>
+                            <a class="btn" href="images/herramientas.jpg" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/luz_led.webp" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                  Todo para la iluminacion 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Iluminación</h3>
+                            <a class="btn" href="images/luz_led.webp" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/extension.webp" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                    Extensiones de diferentes medidas y marcas
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Extensiones</h3>
+                            <a class="btn" href="images/extension.webp" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="images/constuccion.jpg" width="150" height="300" alt="Image">
+                            <div class="service-overlay">
+                                <p>
+                                   Contamos con el mejor material para construcción con la mejor calidad
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <h3>Acero</h3>
+                            <a class="btn" href="images/constuccion.jpg" data-lightbox="service">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- nuestros proveedores -->
+    <div class="service">
+      <div class="container">
+          <div class="section-header text-center">
+              
+              <h2>NUESTROS PROVEEDORES</h2>
+          </div>
+          </div>
+<!-- imagenes proveedores -->
+          <img src="images/logo_truper.png" class="d-block w-100" alt="...">
+          <img src="images/logo_foset.webp" class="d-block w-100" alt="...">
+          <img src="images/Makita-Logo-1.png" class="d-block w-100" alt="...">
+          <img src="images/pretul_logo.png" class="d-block w-100" alt="...">
+          <img src="images/voltek_logo.png" class="d-block w-100" alt="...">
+          
+
+    <!-- Footer Start -->
+
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-lg-3">
+                  <div class="footer-contact">
+                      <h2>Oficina</h2>
+                      <p><i class="fa fa-map-marker-alt"></i>Carretera Jabonoso km 2.5
+                        Gómez Palacio Durango</p>
+                      <p><i class="fa fa-phone-alt"></i>8712976607 y 8711774815</p>
+                      <p><i class="fa fa-envelope"></i>rubyesmeralda_78@hotmail.com</p>
+                      
+                  </div>
+              
+              <!-- Link de facebook -->
+              <a href="https://www.facebook.com/RicardoAriasMarlolejo/"> <img src="images/facebook.svg"></a>
+          
+
+               <!-- Link de facebook -->
+               <img src="images/abierto.svg">
+              </div>
+
+          </div>
+      </div>
+      <div class="container footer-menu">
+          <div class="f-menu">
+              <a href="">Terms of use</a>
+              <a href="">Privacy policy</a>
+              <a href="">Cookies</a>
+              <a href="">Help</a>
+              <a href="">FQAs</a>
+          </div>
+      </div>
+      <div class="container copyright">
+          <div class="row">
+              <div class="col-md-6">
+                  <p>&copy; <a href="#">RAM Ferretería</a>, All Right Reserved.</p>
+              </div>
+              <div class="col-md-6">
+                 
+          
+
+      
+        </ul>
+
+      </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
