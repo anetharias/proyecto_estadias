@@ -2409,8 +2409,27 @@ color: #ffffff;
   }
 }
 
+.imgWrapper4 {
+  font-size: 0;
+  text-align: center;
+}
+.imgWrapper4 .imgResponsiva {
+  display: inline-block;
+  font-size: inherit;
+}
+.imgWrapper4 .imgResponsiva {width: 20%}
 
+
+.imgResponsiva img {
+  height: auto;
+  width: 75% ;
+}
   
+.contenedor {
+ 
+  display: flex;
+  justify-content: center;
+}
 
    
 
